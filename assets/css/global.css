@@ -1,0 +1,36 @@
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.content-position {
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+.text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  color: #525252;
+}
+
+@media (max-width: 800px) {
+  .subtitle {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+}
