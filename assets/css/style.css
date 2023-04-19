@@ -171,3 +171,32 @@
   bottom: 20px;
   right: 20px;
 }
+
+.content-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-top {
+  border-radius: 20px;
+  padding: 5px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  background: white;
+}
+
+.btn-top span {
+  display: flex;
+  gap: 5px;
+  align-self: center;
+}
+
+.btn-top p {
+  align-self: center;
+}
