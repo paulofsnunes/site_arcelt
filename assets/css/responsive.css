@@ -1,10 +1,12 @@
 @media (max-width: 420px) {
   .content {
     grid-template-columns: 1fr !important;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .content img {
-    display: none;
+    
   }
 
   .icons-position img {
