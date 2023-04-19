@@ -151,3 +151,9 @@
   font-size: 1.125rem;
   color: #8f8f8f;
 }
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
