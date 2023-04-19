@@ -1,10 +1,15 @@
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .content {
     grid-template-columns: 1fr !important;
   }
 
   .content img {
     display: none;
+  }
+
+  .icons-position img {
+    width: 32px;
+    height: auto;
   }
 
 }
